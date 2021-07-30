@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    max-width: 470px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    height: 60vh;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.first-box{
+    background-color: teal;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-box img{
+    width: 100%;
+    height: 100%;
+}
+.first-pic img{
+    border-radius: 50px;
+    margin-top: -40px;
+    
+}
+.first-pic{
+    top: 0;  
+}
+.second-box{
+    background-color: white;
+    width: 100%;
+    height: 71vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-pic{
+    margin-top: 30px;
+}
+.text-below-head-text{
+    padding: 10px;
+    text-align: center;
+}
+.text-profile{
+    display: flex;
+    gap: 30px;
+
+}
+.the-h-text{
+    font-size: 20px;
+}
+.last-box{
+    width: 104.5%;
+}
+.text-box{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.footer-last-text{
+    font-size: 10px;
+    line-height: 20px;
+}
+@media(min-width: 567px){
+    .box{
+        max-width: 540px;
+    }
+}
+@media(min-width: 768px){
+    .box{
+        max-width: 720px;
+    }
+}
+@media(min-width: 992px){
+    .box{
+        max-width: 960px;
+    }
+}
